@@ -10,9 +10,9 @@ require("dotenv").config({})
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Gatsby Square Starter`,
-    description: `This barebones starter ships with the minimal configuration you might need to setup Square payments in a Gatsby project`,
-    author: `@jonniebigodes`,
+    title: `Prettyish Jewelry`,
+    description: `Power pieces for humans braving life with a wild heart.`,
+    author: `Jacks & Stichart`,
   },
   developMiddleware: app => {
     app.use(
@@ -33,8 +33,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#b0a`,
+        theme_color: `#b0a`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
