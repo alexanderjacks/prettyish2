@@ -33,10 +33,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#b0a`,
-        theme_color: `#b0a`,
+        background_color: `#f7b500`,
+        theme_color: `#f7b500`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/jacksmedia.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -44,7 +44,7 @@ module.exports = {
       options: {
         spreadsheetId: '1kMsPdVwJxPHMXMW5lUbtEJqofHYpLFxErg6TQ3MN10w',
         worksheetTitle: '88names',
-        credentials: require('./path-to-credentials-file.json')
+        credentials: require('./cl13nt_secret.json')
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
