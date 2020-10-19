@@ -36,7 +36,7 @@ module.exports = {
         background_color: `#f7b500`,
         theme_color: `#f7b500`,
         display: `minimal-ui`,
-        icon: `src/images/jacksmedia.png`, // This path is relative to the root of the site.
+        icon: `src/images/jacksmedia-logo.png`, // This path is relative to the root of the site.
       },
     },
     {
